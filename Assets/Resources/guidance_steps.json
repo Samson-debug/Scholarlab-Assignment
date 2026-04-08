@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "Click on Flask A to pour the chemical.",
+        "Click on Flask A to shake and observe the reaction.",
+        "Click on Flask B to pour the remaining chemical.",
+        "Click on Flask B to shake and observe the reaction.",
+        "Experiment Complete!"
+    ]
+}
