@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50472d91594b0964cab4396b338fb191, type: 3}
+  m_Name: Bee
+  m_EditorClassIdentifier: 
+  id: bee
+  animalName: Bee
+  description: Bees are flying insects closely related to wasps and ants, known for
+    their role in pollination and, in the case of the best-known bee species, the
+    western honey bee, for producing honey. They live in colonies and can sting.
+  animalSprite: {fileID: 21300000, guid: 410355ca1e39a204ca5ea3b4d27101c4, type: 3}
+  isFlying: 1
+  isInsect: 1
+  isOmnivorous: 0
+  isGroup: 1
+  isEggLaying: 1

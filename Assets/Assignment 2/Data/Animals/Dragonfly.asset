@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50472d91594b0964cab4396b338fb191, type: 3}
+  m_Name: Dragonfly
+  m_EditorClassIdentifier: 
+  id: dragonfly
+  animalName: Dragonfly
+  description: A dragonfly is an insect belonging to the order Odonata, infraorder
+    Anisoptera. Adult dragonflies are characterized by large multifaceted eyes, two
+    pairs of strong transparent wings, sometimes with coloured patches, and an elongated
+    body.
+  animalSprite: {fileID: 21300000, guid: 80351d470370e4248a74b81cfbac2940, type: 3}
+  isFlying: 1
+  isInsect: 0
+  isOmnivorous: 1
+  isGroup: 0
+  isEggLaying: 1

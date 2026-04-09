@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50472d91594b0964cab4396b338fb191, type: 3}
+  m_Name: Clown Fish
+  m_EditorClassIdentifier: 
+  id: clownfish
+  animalName: Clown Fish
+  description: 'Clownfish or anemonefish are fishes from the subfamily Amphiprioninae
+    in the family Pomacentridae. Thirty species are recognized: one in the genus
+    Premnas, while the remaining are in the genus Amphiprion.'
+  animalSprite: {fileID: 21300000, guid: 51ac51300b5b4364aaa583326ca82472, type: 3}
+  isFlying: 0
+  isInsect: 0
+  isOmnivorous: 1
+  isGroup: 1
+  isEggLaying: 1
