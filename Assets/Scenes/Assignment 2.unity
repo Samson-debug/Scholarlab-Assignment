@@ -1922,7 +1922,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 565630490}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1943315383}
+        m_TargetAssemblyTypeName: Assignment2.GameManager, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &565630490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2980,7 +2992,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f00bb240bfbe264295b5af851c10f3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiManager: {fileID: 1591817236}
   cardPrefab: {fileID: 7885465684028985755, guid: 6eeea7bb642d8524489f38760b00466d, type: 3}
   cardSpawnArea: {fileID: 434720951}
   allAnimals:
@@ -3002,11 +3013,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ed499442a8b89bd4cb419de2cb730db4, type: 2}
   - {fileID: 11400000, guid: d1c4e9554079f044c8e7c6bcceaf4266, type: 2}
   - {fileID: 11400000, guid: f7a46334ea54bf2428d60c1cb10d8b7f, type: 2}
-  currentCategory: 0
-  currentScore: 0
-  cardsProcessed: 0
-  correctAnimals: []
-  incorrectAnimals: []
 --- !u!4 &907104055
 Transform:
   m_ObjectHideFlags: 0
@@ -4427,7 +4433,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1395697664}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1943315383}
+        m_TargetAssemblyTypeName: Assignment2.GameManager, Assembly-CSharp
+        m_MethodName: GoToHome
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1395697664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4613,10 +4631,10 @@ MonoBehaviour:
   finishScreenPanel: {fileID: 40604791}
   scoreText: {fileID: 1850025528}
   congratulationText: {fileID: 298394102}
-  correctParentContainer: {fileID: 0}
+  correctParentContainer: {fileID: 365709825}
   correctScrollView: {fileID: 165114037}
   correctListParent: {fileID: 562132804}
-  incorrectParentContainer: {fileID: 0}
+  incorrectParentContainer: {fileID: 834391809}
   incorrectScrollView: {fileID: 1227777917}
   incorrectListParent: {fileID: 537690663}
   resultCardPrefab: {fileID: 7885465684028985755, guid: 6eeea7bb642d8524489f38760b00466d, type: 3}
@@ -5629,6 +5647,50 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1943315382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1943315384}
+  - component: {fileID: 1943315383}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1943315383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943315382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b5b3bdb9a16df4ba150152db3850d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1943315384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943315382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 635, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977773609
 GameObject:
   m_ObjectHideFlags: 0
@@ -6064,6 +6126,7 @@ SceneRoots:
   - {fileID: 2051160859}
   - {fileID: 400587252}
   - {fileID: 400283810}
+  - {fileID: 1943315384}
   - {fileID: 907104055}
   - {fileID: 1591817237}
   - {fileID: 232696321}

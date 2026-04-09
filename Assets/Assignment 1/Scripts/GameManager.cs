@@ -49,4 +49,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    
+    //called by btn
+    public void LoadHomeScene()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
